@@ -3,7 +3,7 @@
 ![E2B](./images/E2B2.png)
 
 ## 🎯 Purpose
-[Easy2Boot](https://easy2boot.xyz/) (E2B) is a flexible multiboot solution that lets you create a single USB drive capable of booting multiple operating systems, utilities, and recovery tools. Instead of preparing a new bootable USB for each ISO, you simply copy the ISO file to your Easy2Boot drive and boot from it.
+[Easy2Boot](https://easy2boot.xyz/) (E2B) is a free flexible multiboot solution that lets you create a single USB drive capable of booting multiple operating systems, utilities, and recovery tools. Instead of preparing a new bootable USB for each ISO, you simply copy the ISO file to your Easy2Boot drive and boot from it.
 
 ---
 
@@ -15,6 +15,9 @@
 
 ![E2B](./images/E2B.png)
 
+
+![E2B Menu](./images/E2Bmenu.jpg)
+
 ---
 
 ## ⚙️ Requirements
@@ -24,11 +27,11 @@
 
 ### Hardware
 - 💾 USB stick (minimum 8GB - 64GB at least recommended to put several ISOs, up to 2TB).
-
-> Developer recommends Sandisk Extreme Pro USB 3 range of drives
-  
+**OR**  
 - 💽 Portable USB SSD/HDD for larger ISO collections.
 - 🖥️ PC or server with BIOS or UEFI firmware (**Secure Boot disabled**).
+
+> Developer recommends Sandisk Extreme Pro USB 3 range of drives. I just use a 120GB USB 3.0 SSD.
 
 ---
 
@@ -137,6 +140,13 @@ With Easy2Boot:
 - 🖥️ **Legacy BIOS**: Fully supported.
 - 🧭 **UEFI**: Supported (Secure Boot must be disabled).
 - 🌍 Works across desktops, laptops, and servers with mixed firmware environments.
+
+---
+
+## 🌍 Use Cases in Enterprise
+- Disaster recovery in data centers.
+- Rapid OS deployment for labs or classrooms.
+- Portable toolkit for consultants.
 
 ---
 
