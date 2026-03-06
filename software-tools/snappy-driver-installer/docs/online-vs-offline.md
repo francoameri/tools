@@ -17,6 +17,12 @@ Each mode has advantages and trade-offs depending on your environment, infrastru
   - Slower in environments with limited bandwidth.
   - Not ideal for large-scale or repeated deployments.
 
+```
++---------+       +-----------+       +------------+       +-------------------+       +----------------+       +--------+
+| Launch  | --->  |   Detect  | --->  |  Download  | --->  | Restore Point Made| --->  | Install Driver | --->  | Reboot |
++---------+       +-----------+       +------------+       +-------------------+       +----------------+       +--------+
+```
+
 **Best for:**  
 Casual fixes, single endpoint troubleshooting, or environments with reliable internet access.
 
@@ -33,6 +39,12 @@ Casual fixes, single endpoint troubleshooting, or environments with reliable int
   - Large initial download (50+ GB).
   - Requires regular updates to keep driver packs current.
   - Needs significant storage space.
+
+```
++---------+       +-----------+       +----------------+       +-------------------+       +----------------+       +--------+
+| Launch  | --->  |   Detect  | --->  | Local Driver DB| --->  | Restore Point Made| --->  | Install Driver | --->  | Reboot |
++---------+       +-----------+       +----------------+       +-------------------+       +----------------+       +--------+
+```
 
 **Best for:**  
 IT technicians, infrastructure deployments, server environments, or scenarios where **internet access is limited or restricted.**
