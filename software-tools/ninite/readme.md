@@ -11,6 +11,8 @@ It eliminates repetitive manual installation steps by silently installing select
 - Skips unnecessary toolbars or add‑ons.
 - Can be run repeatedly to keep software up to date.
 
+![Ninite](./images/Ninite.png)
+
 🖥️ Installation Modes
 - Runs silently in the background.
 - Requires no user interaction once launched.
