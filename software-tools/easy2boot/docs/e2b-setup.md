@@ -89,3 +89,41 @@ You now have a **multiboot USB drive** ready for BIOS and UEFI environments (Sec
 
 [![E2B Install Process](https://img.youtube.com/vi/J7XjH-eLjbg/0.jpg)](https://www.youtube.com/watch?v=J7XjH-eLjbg)
 
+---
+
+# 📝 Easy2Boot Quick Reference Cheat Sheet
+
+## Setup
+1. Download Easy2Boot (`.exe` for Win7/8/10/11, `.zip` for XP).
+2. Run **Make_E2B.exe** → select USB drive → click **Big Red Arrow**.
+   - Use **Gear Wheel** for custom partitions.
+   - Type `Y` to install agFM (UEFI boot).
+   - Type `Y` to install Ventoy for Easy2Boot (optional).
+
+## Payload Files
+Copy bootable files into predefined folders:
+
+```
+_ISO\MAINMENU
+_ISO\ANTIVIRUS
+_ISO\BACKUP
+_ISO\DOS
+_ISO\LINUX
+_ISO\UTILITIES _ISO\UTILITIES_MEMTEST
+_ISO\WIN (WindowsToGo VHD/VHDx files)
+_ISO\WINPE (HBCD_PE, Strelec, DLCBoot, Gandalf)
+_ISO\WINDOWS\xx (Windows Install ISOs and images)
+```
+
+## Contiguous Files
+Run on USB drive after adding ISOs:
+
+```
+\MAKE_THIS_DRIVE_CONTIGUOUS.cmd
+```
+
+## Notes
+- Disable **Secure Boot** in UEFI/BIOS.
+- Windows 10/11 required for UEFI files on removable flash drives.
+- Use retail/volume licensed Windows (not developer builds).
+- Backup your Easy2Boot drive regularly.
