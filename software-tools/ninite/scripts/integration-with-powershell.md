@@ -35,3 +35,9 @@ This script demonstrates how to run the Ninite installer silently with PowerShel
 
 
 > ⚠️ **Note:** Place your downloaded `Ninite.exe` in the correct path referenced in the script before execution or edit it's path with notepad or any text-processing software.
+
+---
+
+Want to automate this task for your Windows Endpoint? Check this document:
+
+![Automate with Task Scheduler](automating-with-task-scheduler.md)
