@@ -1,6 +1,6 @@
 # Snappy Driver Installer (SDI)
 
-[Snappy Driver Installer](https://sdi-tool.org/) (SDI) is a **free, open-source driver installation utility** designed to simplify one of the most frustrating tasks in IT: finding and installing the right drivers for your hardware.
+📌 [Snappy Driver Installer](https://sdi-tool.org/) (SDI) is a **free, open-source driver installation utility** designed to simplify one of the most frustrating tasks in IT: finding and installing the right drivers for your hardware.
 
 ---
 
@@ -42,6 +42,25 @@ Unlike many paid driver installers and so-called "optimization tools" that:
 
 ---
 
+## 🔒 Security Features
+
+Snappy Driver Installer (SDI) is designed with safety and transparency in mind. While many paid driver tools bundle ads or risky software, SDI focuses only on drivers and includes several protections:
+
+- **Automatic System Restore Point**  
+  Before installing or updating drivers, SDI creates a restore point so you can roll back if needed.
+- **No Adware or Bloatware**  
+  SDI does not install extra software, ads, or “optimizers.” It’s clean and focused only on drivers.
+- **Open Source Transparency**  
+  The code is open source, meaning the community can review it for hidden or malicious behavior.
+- **Portable Execution**  
+  SDI can run directly from a USB drive without installation, reducing attack surface and leaving no permanent footprint.
+- **Driver Pack Verification**  
+  Driver packs are curated and updated by the community, minimizing the risk of corrupted or unsafe drivers.
+- **Official Distribution**  
+  Safe use requires downloading only from the official site ([sdi-tool.org](https://sdi-tool.org/)) to avoid tampered versions.
+
+---
+
 ## 🌍 Supported Operating Systems
 - Windows XP
 - Windows Vista
@@ -50,6 +69,15 @@ Unlike many paid driver installers and so-called "optimization tools" that:
 - Windows 10
 - Windows 11
 - **Windows Server editions**
+
+---
+
+## 📥 Downloads
+Always download SDI from the official site to ensure authenticity:
+
+- [Download Page - Select your version](https://sdi-tool.org/download/)
+- [Full Version (with driver packs, ~50GB)](https://sdi-tool.org/SDI_Update.torrent) ⚠️ **Needs P2P Torrent Client, like BitTorrent**
+- [Lite Version (portable, downloads drivers on demand)](https://driveroff.net/drv/SDI_1.26.1.7z) 
 
 ---
 
@@ -66,9 +94,7 @@ It’s not the *panacea* for every system issue, but it’s a powerful, communit
 ## 📊 Workflow Diagram
 Here’s a simple visualization of how SDI operates:
 
-![SDI Workflow Diagram](https://copilot.microsoft.com/th/id/BCO.8055683a-518f-42a2-90c0-95a174ea41df.png)
-
-**Detect → Download → Install → Restore Point**
+**Detect → Download → Restore Point → Install → Reboot**
 
 ---
 
