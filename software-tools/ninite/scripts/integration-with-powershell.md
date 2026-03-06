@@ -64,5 +64,7 @@ powershell.exe
 Benefits:
 
 **- Keeps apps updated without manual intervention.**
+
 **- Ensures consistency across systems.**
+
 **- Works seamlessly with the reusable Ninite installer.**
