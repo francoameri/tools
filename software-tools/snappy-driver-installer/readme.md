@@ -14,6 +14,8 @@
   - **Full driver pack**: keep a local repository of 50+ GB of drivers for use across multiple systems.
 - Creates a **system restore point automatically** before making changes, ensuring safety and rollback capability.
 
+![SDITool](./images/SDItool.png)
+
 ---
 
 ## 🎯 What SDI Is For
