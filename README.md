@@ -46,5 +46,14 @@ By cataloging tools with context and reproducible examples, this repo helps IT p
 ## 📌 Future Additions
 - Comparison matrices (e.g., imaging vs. backup solutions)  
 - Workflow diagrams showing where tools fit in IT lifecycles  
-- Case studies linking tools to enterprise standards  
+- Case studies linking tools to enterprise standards
 
+---
+
+## 🤝 Contributions
+This repository is personal and experience-driven, but feedback and ideas are welcome.  
+If you’ve faced similar challenges, feel free to share your approach or suggest improvements.
+
+- 💼 [LinkedIn](https://linkedin.com/in/fameri)  
+- 🌐 [GitHub](https://github.com/francoameri)  
+- ✉️ famerisbraccia@gmail.com
