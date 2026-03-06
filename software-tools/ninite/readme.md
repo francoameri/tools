@@ -1,7 +1,10 @@
 ## 📚 Documentation Index
+Quick links to detailed guides for different deployment scenarios:
 - [Integration with PowerShell](./scripts/integration-with-powershell.md)
 - [Automation with Task Scheduler](./scripts/automation-with-task-scheduler.md)
 - [Network Deployment Scenarios](./deployment-scenarios/network-deployment.md)
+
+🏷️ These guides provide step‑by‑step instructions and reproducible workflows, helping technicians and IT teams integrate Ninite into automation routines, scheduled updates, and network‑wide deployments.
 
 ## 🖥️ Bulk Software Deployment
 Ninite simplifies bulk software deployment by packaging multiple applications into a single installer, reducing repetitive manual steps during OS rollouts.
@@ -91,7 +94,7 @@ The Pro version extends functionality for IT teams:
 ## 🛠️ **BONUS!** PowerShell Integration Guide
 If you’d like to go beyond the basics and automate Ninite’s usability with PowerShell, this repository includes a dedicated guide:
 
-[Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
+👉[Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
 
 That section walks through how to:
 - Run Ninite silently via PowerShell scripts
