@@ -75,12 +75,6 @@ on the USB drive.
 
 ---
 
-## ✅ Summary
-- **Step 1**: Download Easy2Boot.  
-- **Step 2**: Use `Make_E2B.exe` to prepare your USB drive.  
-- **Step 3**: Copy ISOs/WIMs/VHDs into the correct `\_ISO` folders.  
-- **Step 4**: Run `MAKE_THIS_DRIVE_CONTIGUOUS.cmd` to finalize.  
-
 You now have a **multiboot USB drive** ready for BIOS and UEFI environments (Secure Boot disabled).
 
 > Important note: Installing E2B can be quite complex, so here's the full guide and a video from the author's website in case you need it:
@@ -93,14 +87,14 @@ You now have a **multiboot USB drive** ready for BIOS and UEFI environments (Sec
 
 # 📝 Easy2Boot Quick Reference Cheat Sheet
 
-## Setup
+## 🔧 Setup
 1. Download Easy2Boot (`.exe` for Win7/8/10/11, `.zip` for XP).
 2. Run **Make_E2B.exe** → select USB drive → click **Big Red Arrow**.
    - Use **Gear Wheel** for custom partitions.
    - Type `Y` to install agFM (UEFI boot).
    - Type `Y` to install Ventoy for Easy2Boot (optional).
 
-## Payload Files
+## 📂 Payload Files
 Copy bootable files into predefined folders:
 
 ```
@@ -109,21 +103,31 @@ _ISO\ANTIVIRUS
 _ISO\BACKUP
 _ISO\DOS
 _ISO\LINUX
-_ISO\UTILITIES _ISO\UTILITIES_MEMTEST
+_ISO\UTILITIES
+_ISO\UTILITIES_MEMTEST
 _ISO\WIN (WindowsToGo VHD/VHDx files)
 _ISO\WINPE (HBCD_PE, Strelec, DLCBoot, Gandalf)
 _ISO\WINDOWS\xx (Windows Install ISOs and images)
 ```
 
-## Contiguous Files
+## 📏 Contiguous Files
 Run on USB drive after adding ISOs:
 
 ```
 \MAKE_THIS_DRIVE_CONTIGUOUS.cmd
 ```
 
-## Notes
+## 📝 Notes
 - Disable **Secure Boot** in UEFI/BIOS.
 - Windows 10/11 required for UEFI files on removable flash drives.
 - Use retail/volume licensed Windows (not developer builds).
 - Backup your Easy2Boot drive regularly.
+- - 🛠️ Quick Troubleshooting: Run `DebugAll_MakeE2B_Admin.cmd` as Administrator if setup fails.
+
+---
+
+## ✅ Summary
+- **Step 1**: Download Easy2Boot.  
+- **Step 2**: Use `Make_E2B.exe` to prepare your USB drive.  
+- **Step 3**: Copy ISOs/WIMs/VHDs into the correct `\_ISO` folders.  
+- **Step 4**: Run `MAKE_THIS_DRIVE_CONTIGUOUS.cmd` to finalize.  
