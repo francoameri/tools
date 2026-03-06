@@ -2,6 +2,14 @@
 
 ![E2B](./images/E2B2.png)
 
+## 📚 Documentation Index
+Quick links to detailed guides on how to use this tool:
+- [Easy2Boot Setup Guide](/docs/e2b-setup.md)
+- [Easy2Boot Best Practices](/docs/best-practices.md)
+- [Advanced Features](/docs/advanced-features.md)
+
+🏷️ These guides provide step‑by‑step instructions and reproducible workflows, helping technicians and IT teams integrate E2B into automation routines, deployments and resource optimization.
+
 ## 🎯 Purpose
 [Easy2Boot](https://easy2boot.xyz/) (E2B) is a free flexible multiboot solution that lets you create a single USB drive capable of booting multiple operating systems, utilities, and recovery tools. Instead of preparing a new bootable USB for each ISO, you simply copy the ISO file to your Easy2Boot drive and boot from it.
 
@@ -35,6 +43,12 @@
 
 ---
 
+## ⚙️ How to install?
+
+- [Easy2Boot Setup Guide](/docs/e2b-setup.md)
+
+---
+
 ## ✅ What You Can Do (Advantages)
 - 📂 Boot multiple ISOs from a single device.
 - 🔄 Add/remove ISOs by simple file copy—no need to reformat.
@@ -42,6 +56,11 @@
 - 🖥️ Works with Windows installers, Linux distros, utilities, and recovery tools.
 - 📈 Scales from small USB sticks to large portable drives.
 - ⏱️ Saves time and reduces clutter by consolidating boot media.
+
+> See also [Easy2Boot Best Practices](/docs/best-practices.md)
+
+> See also [Advanced Features](/docs/advanced-features.md)
+
 
 ---
 
@@ -147,6 +166,13 @@ With Easy2Boot:
 - Disaster recovery in data centers.
 - Rapid OS deployment for labs or classrooms.
 - Portable toolkit for consultants.
+
+---
+
+## 📚 References
+- [Official Easy2Boot Documentation](https://easy2boot.xyz/)
+- [FAQ](https://easy2boot.xyz/faq/)
+- [Community Forum](https://forums.easy2boot.xyz/)
 
 ---
 
