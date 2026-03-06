@@ -20,7 +20,7 @@ Ninite is a bulk software installer and updater designed to automate the deploym
 It eliminates repetitive manual installation steps by silently installing selected programs with default settings.
 
 ⚙️ How It Works
-- Visit ninite.com and select the applications you want.
+- Visit ***www.ninite.com*** and select the applications you want.
 - Select all the software to make and download the installer package.
 - Run the installer — Ninite automatically installs or updates all selected apps in the background:
 - No prompts, clicks, or license agreements.
