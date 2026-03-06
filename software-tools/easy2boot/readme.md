@@ -23,7 +23,10 @@
 - 🖥️ Windows system to prepare the USB drive (Linux prep possible with extra steps).
 
 ### Hardware
-- 💾 USB stick (minimum 8GB - 64GB at least recommended to put several ISOs).
+- 💾 USB stick (minimum 8GB - 64GB at least recommended to put several ISOs, up to 2TB).
+
+> Developer recommends Sandisk Extreme Pro USB 3 range of drives
+  
 - 💽 Portable USB SSD/HDD for larger ISO collections.
 - 🖥️ PC or server with BIOS or UEFI firmware (**Secure Boot disabled**).
 
