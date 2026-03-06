@@ -62,6 +62,7 @@ powershell.exe
 
 - Finish the wizard and ensure the task runs with highest privileges (check the box in task properties).
 Benefits:
+
 **- Keeps apps updated without manual intervention.**
 **- Ensures consistency across systems.**
 **- Works seamlessly with the reusable Ninite installer.**
