@@ -28,7 +28,7 @@ All-in-one installers, driver packs, and workflow accelerators that reduce manua
 
 ---
 
-##🎯 Purpose of This Section
+## 🎯 Purpose of This Section
 By documenting these tools with context, scenarios, strengths, limitations, and integration notes, IT professionals can:
 - Learn which tool fits which problem
 - Build confidence in troubleshooting workflows
