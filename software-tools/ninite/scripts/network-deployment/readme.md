@@ -1,4 +1,4 @@
-🌐 Network Deployment with Ninite
+## 🌐 Network Deployment with Ninite
 This guide explains how to run Ninite from a shared network folder and automate updates across multiple endpoints in a small business environment.
 
 📂 Centralized Script Setup
@@ -16,9 +16,12 @@ This guide explains how to run Ninite from a shared network folder and automate 
 ```
 
 ⏰ Automating with Task Scheduler
+
 You can configure each endpoint to run the script weekly
 
-> See this step in [!Integration-with-Powershell](..scripts/readme.md)
+
+> See this step in ![Integration-with-Powershell](../integration-with-powershell.md)
+
 
 📌 Export/Import for Replication
 To replicate across multiple endpoints:
@@ -40,11 +43,11 @@ If your endpoints are domain‑joined:
 - Ensure the UNC path is accessible to all endpoints.
 ```
 
-This method provides centralized control and reduces manual effort
+**This method provides centralized control and reduces manual effort**
 
 ---
 
-🎯 Best Practices
+## 🎯 Best Practices
 - Centralize scripts → update once, all endpoints benefit.
 - Run as SYSTEM or service account → ensures installs succeed without user login.
 - Test on one machine first → confirm permissions and paths.
