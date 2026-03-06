@@ -94,7 +94,7 @@ The Pro version extends functionality for IT teams:
 ## 🛠️ **BONUS!** PowerShell Integration Guide
 If you’d like to go beyond the basics and automate Ninite’s usability with PowerShell, this repository includes a dedicated guide:
 
-👉[Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
+👉 [Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
 
 That section walks through how to:
 - Run Ninite silently via PowerShell scripts
