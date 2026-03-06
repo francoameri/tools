@@ -31,7 +31,7 @@ Together, they make Easy2Boot not just a multiboot solution, but a **versatile d
 
 ---
 
-## 🧩 Menu System Comparison
+## 📊 Menu System Comparison
 
 ```
 +-------------------+-------------------------+-------------------------+
@@ -113,10 +113,81 @@ v                                   v
 
 ---
 
+## 🛠️ Advanced Scenarios
+
+Beyond the core features, Easy2Boot can be adapted for specialized use cases that highlight its flexibility in enterprise and field environments:
+
+### 🔒 Secure Boot Workarounds
+- Easy2Boot does not natively support Secure Boot, but you can:
+  - Temporarily disable Secure Boot in BIOS/UEFI settings.
+  - Use `.imgPTN` files with signed bootloaders for limited Secure Boot compatibility.
+  - Document exceptions for environments where Secure Boot cannot be disabled.
+
+### 🗂️ Multi‑Partition Setups
+- Create multiple partitions to separate payload types:
+  - Partition 1 → Easy2Boot menus and ISOs.
+  - Partition 2 → agFM files for UEFI booting.
+  - Partition 3 → Data storage or custom scripts.
+- This structure allows you to maintain a clean boot environment while still carrying tools and files for other tasks.
+
+### 🏢 Enterprise Deployment Tricks
+- Maintain a portable SSD with:
+  - Windows 10/11 installers for rapid deployment.
+  - Linux live environments for diagnostics or temporary lab setups.
+  - Recovery tools (Hiren’s BootCD, WinPE) for disaster recovery.
+- Use Easy2Boot in classrooms or labs to quickly re‑image multiple machines without juggling dozens of USB sticks.
+- Document repeatable workflows so teams can reproduce your setup consistently.
+
+### ⚡ Performance Optimization
+- Invest in USB 3.0 SSDs or high‑speed flash drives for faster boot times and ISO handling.
+- Run `MAKE_THIS_DRIVE_CONTIGUOUS.cmd` regularly to ensure payload files remain contiguous.
+- Test across diverse hardware (legacy BIOS, modern UEFI) to validate reliability.
+
+---
+
+## 🧾 Summary of Advanced Scenarios
+These advanced scenarios show how Easy2Boot can scale from a technician’s toolkit to an enterprise‑ready solution. By combining `.imgPTN`, agFM, and Ventoy with structured partitioning and performance practices, you demonstrate architect‑level foresight: adapting a flexible tool to meet diverse deployment, recovery, and compliance needs.
+
+---
+
+### 🗂️ Multi‑Partition Setups
+- Create multiple partitions to separate payload types:
+  - Partition 1 → Easy2Boot menus and ISOs.
+  - Partition 2 → agFM files for UEFI booting.
+  - Partition 3 → Data storage or custom scripts.
+- This structure allows you to maintain a clean boot environment while still carrying tools and files for other tasks.
+
+## 🗂️ Multi‑Partition Setup Diagram
+
+```
++---------------------------------------------------+
+|                 USB Drive Layout                  |
++-------------------+-------------------+-----------+
+|   Partition 1     |   Partition 2     | Partition |
+|   Easy2Boot (E2B) |   agFM (UEFI)     |   Data    |
++-------------------+-------------------+-----------+
+| - Legacy BIOS     | - Direct UEFI     | - Scripts |
+|   boot menus      |   boot menus      |   & files |
+| - ISO folders     | - Graphical grub2 | - Storage |
+|   (\_ISO\...)     |   interface       |   space   |
+| - Ventoy option   | - Supports ISO/   | - Logs,   |
+|   coexists here   |   WIM/VHD/EFI     |   configs |
++-------------------+-------------------+-----------+
+```
+
+📌 How to Read This
+- Partition 1 (E2B) → Core Easy2Boot menus, ISO folder hierarchy, and optional Ventoy integration.
+- Partition 2 (agFM) → Adds direct UEFI booting with a graphical grub2 menu, supporting multiple formats.
+- Partition 3 (Data) → Reserved for scripts, logs, configs, or general storage — keeps boot environment clean.
+
+---
+
 ## ✅ Summary
 By combining E2B, agFM, and Ventoy, you create a **layered multiboot toolkit**:
 - E2B → Legacy BIOS + flexible folder menus.  
 - agFM → Direct UEFI booting with graphical menus.  
 - Ventoy → Quick ISO booting with minimal setup.  
 
-Together, they cover nearly all deployment and recovery scenarios across BIOS and UEFI systems.
+Together, they transform Easy2Boot into a versatile deployment and recovery platform.
+
+Documenting these advanced features signals architect‑level foresight: the ability to adapt tools for diverse environments and maximize efficiency in real‑world IT operations
