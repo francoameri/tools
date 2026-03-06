@@ -81,7 +81,7 @@ With Easy2Boot:
 
 ## ⚙️ Installation Guide
 
-- [Easy2Boot Setup Guide](/docs/e2b-setup.md)
+- [Easy2Boot Setup Guide](./docs/e2b-setup.md)
 
 ---
 
@@ -95,9 +95,9 @@ With Easy2Boot:
 
 In practice, instead of creating a new bootable USB for each ISO, you simply **drag & drop** files onto your Easy2Boot drive — instantly expanding your toolkit and carrying a single device that covers nearly all deployment and recovery scenarios.
 
-> See also [Easy2Boot Best Practices](/docs/best-practices.md) - recommended for begginers.
+> See also [Easy2Boot Best Practices](./docs/best-practices.md) - recommended for begginers.
 
-> See also [Advanced Features](/docs/advanced-features.md) - recommended if you want an in-depth technical understanding on how this tool works.
+> See also [Advanced Features](./docs/advanced-features.md) - recommended if you want an in-depth technical understanding on how this tool works.
 
 ## ❌ What You Cannot Do (Limitations)
 - 🔒 **Secure Boot** is not supported—you must disable it in UEFI/BIOS.
