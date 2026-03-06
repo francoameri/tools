@@ -5,8 +5,8 @@
 ## 📚 Documentation Index
 Quick links to detailed guides for different deployment scenarios:
 - [Integration with PowerShell](./scripts/integration-with-powershell.md)
-- [Automation with Task Scheduler](./scripts/automation-with-task-scheduler.md)
-- [Network Deployment Scenarios](./deployment-scenarios/network-deployment.md)
+- [Automation with Task Scheduler](./scripts/automating-with-task-scheduler.md)
+- [Network Deployment Scenarios](./scripts/network-deployment/readme.md)
 
 🏷️ These guides provide step‑by‑step instructions and reproducible workflows, helping technicians and IT teams integrate Ninite into automation routines, scheduled updates, and network‑wide deployments.
 
