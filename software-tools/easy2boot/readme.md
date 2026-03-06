@@ -13,6 +13,8 @@
 - 💻 **OS Deployment**: Install different versions of Windows or Linux without recreating boot media.
 - 🚀 **Portable Toolkit**: Maintain a portable SSD/HDD with dozens of ISOs for field work or data center operations.
 
+![E2B](./images/E2B.png)
+
 ---
 
 ## ⚙️ Requirements
