@@ -98,7 +98,11 @@ It’s not the *panacea* for every system issue, but it’s a powerful, communit
 ## 📊 Workflow Diagram
 Here’s a simple visualization of how SDI operates:
 
-**Detect → Download → Restore Point → Install → Reboot**
+```
++---------+       +-----------+       +-------------------+       +----------------+       +--------+
+| Detect  | --->  | Download  | --->  | Restore Point Made| --->  | Install Driver | --->  | Reboot |
++---------+       +-----------+       +-------------------+       +----------------+       +--------+
+```
 
 ---
 
@@ -120,6 +124,8 @@ Here’s a simple visualization of how SDI operates:
 ---
 
 ## ⚠️ Online vs Offline mode usage
+👉 [How to use guide](./docs/how-to-sdi.md)
+
 👉 [Online vs Offline guide](./docs/online-vs-offline.md)
 
 ---
