@@ -34,3 +34,10 @@ By documenting these tools with context, scenarios, strengths, limitations, and 
 - Build confidence in troubleshooting workflows
 - Think critically about tool choice and operational impact
 - Apply reproducible examples in labs, enterprise, or MSP environments
+
+---
+
+## 🗂️ Current Entries
+- Ninite – Automated bulk installer for common software packages
+- Snappy Driver Installer – Driver management across legacy and modern Windows OS
+- Easy2Boot – Multi-ISO boot solution for deployment and recovery
