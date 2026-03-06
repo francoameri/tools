@@ -20,3 +20,12 @@ Start-Process -FilePath "C:\Installers\Ninite.exe" -ArgumentList "/silent" -Wait
 The beauty of Ninite is that the same installer can be reused:
 - Run it again later → it **updates all chosen apps to their latest versions.**
 - No need to re‑download unless you want to change the app list.
+
+## 📥 Downloadable Script
+For practical integration, a ready‑to‑use PowerShell script is included in this repository.  
+You can download it here:  
+[➡ ninite-install.ps1](scripts/ninite-install.ps1)
+
+This script demonstrates how to run the Ninite installer silently with PowerShell, making it easy to automate deployments or updates across multiple systems.
+
+> ⚠️ **Note:** Place your downloaded `Ninite.exe` in the correct path referenced in the script before execution or edit it's path with notepad or any text-processing software.
