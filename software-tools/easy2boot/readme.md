@@ -1,6 +1,6 @@
 # 🔌 Easy2Boot
 
-[E2B](./images/E2B2.png)
+![E2B](./images/E2B2.png)
 
 ## 🎯 Purpose
 [Easy2Boot](https://easy2boot.xyz/) (E2B) is a flexible multiboot solution that lets you create a single USB drive capable of booting multiple operating systems, utilities, and recovery tools. Instead of preparing a new bootable USB for each ISO, you simply copy the ISO file to your Easy2Boot drive and boot from it.
