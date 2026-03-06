@@ -31,6 +31,6 @@ powershell.exe
 
 ## 🌐 Network Deployment with Ninite
 
-- Want to do this in a bigger scale? Check this other document:
+Want to do this in a bigger scale? Check this other document:
 
 ![Network-Deployment](./network-deployment/readme.md)
