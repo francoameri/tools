@@ -4,9 +4,9 @@
 
 ## 📚 Documentation Index
 Quick links to detailed guides on how to use this tool:
-- [Easy2Boot Setup Guide](/docs/e2b-setup.md)
-- [Easy2Boot Best Practices](/docs/best-practices.md)
-- [Advanced Features](/docs/advanced-features.md)
+- [Easy2Boot Setup Guide](./docs/e2b-setup.md)
+- [Easy2Boot Best Practices](./docs/best-practices.md)
+- [Advanced Features](./docs/advanced-features.md)
 
 🏷️ These guides provide step‑by‑step instructions and reproducible workflows, helping technicians and IT teams integrate E2B into automation routines, deployments and resource optimization.
 
