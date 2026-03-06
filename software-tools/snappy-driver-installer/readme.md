@@ -1,5 +1,7 @@
 # Snappy Driver Installer (SDI)
 
+![SDI](./images/SDI.PNG)
+
 📌 [Snappy Driver Installer](https://sdi-tool.org/) (SDI) is a **free, open-source driver installation utility** designed to simplify one of the most frustrating tasks in IT: finding and installing the right drivers for your hardware.
 
 ---
@@ -112,6 +114,11 @@ Here’s a simple visualization of how SDI operates:
 - **Secure** — creates restore points automatically.
 - **Saves time and frustration** compared to manual searches.
 - **No gimmicks, no bloatware, no false promises.**
+
+---
+
+## ⚠️ Online vs Offline mode usage
+👉 [Online vs Offline guide](./docs/online-vs-offline.md)
 
 ---
 
