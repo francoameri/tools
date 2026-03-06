@@ -2,7 +2,16 @@
 
 ![SDI](./images/SDI.PNG)
 
-📌 [Snappy Driver Installer](https://sdi-tool.org/) (SDI) is a **free, open-source driver installation utility** designed to simplify one of the most frustrating tasks in IT: finding and installing the right drivers for your hardware.
+## 📚 Documentation Index
+Quick links to detailed guides for different deployment scenarios:
+- [How to use guide](./docs/how-to-sdi.md)
+- [Online vs Offline guide](./docs/online-vs-offline.md)
+
+---
+
+## 📌 Purpose
+
+[Snappy Driver Installer](https://sdi-tool.org/) (SDI) is a **free, open-source driver installation utility** designed to simplify one of the most frustrating tasks in IT: finding and installing the right drivers for your hardware.
 
 ---
 
@@ -15,6 +24,22 @@
 - Creates a **system restore point automatically** before making changes, ensuring safety and rollback capability.
 
 ![SDITool](./images/SDItool.png)
+
+---
+
+## 🚀 Practical Use Cases
+
+### 🖥️ Endpoint Driver Rollouts
+SDI simplifies driver installation during OS deployments by automating detection and installation, reducing the need for manual driver hunting across vendor sites.
+
+### ⚙️ Infrastructure Automation
+With portable execution, SDI can be integrated into scripted workflows or run from USB drives or network drives, ensuring consistent driver updates across multiple endpoints without installation overhead.
+
+### 🏢 Enterprise & MSP Environments
+For MSPs and enterprise teams, SDI’s offline driver packs enable reproducible deployments in secure or bandwidth-limited environments, while restore points safeguard system stability.
+
+### 🔒 Security-Conscious Deployments
+SDI automatically creates restore points before changes, runs without adware or bloatware, and offers transparent open-source code — making it a trusted option for technicians working in sensitive environments.
 
 ---
 
@@ -124,9 +149,8 @@ Here’s a simple visualization of how SDI operates:
 ---
 
 ## ⚠️ Online vs Offline mode usage
-👉 [How to use guide](./docs/how-to-sdi.md)
-
-👉 [Online vs Offline guide](./docs/online-vs-offline.md)
+- [How to use guide](./docs/how-to-sdi.md)
+- [Online vs Offline guide](./docs/online-vs-offline.md)
 
 ---
 
@@ -143,3 +167,6 @@ As part of my **Practical IT Toolkit Catalog**, I highlight Snappy Driver Instal
 
 This README is not just documentation — it’s a **case study** in how I approach IT problem-solving: practical, transparent, and recruiter-friendly.
 
+---
+
+Keywords: driver installer, Snappy Driver Installer, SDI, free driver tool, open source driver updater, Windows drivers, Windows Server drivers, offline driver pack, portable driver installer, IT toolkit, infrastructure automation, endpoint deployment, MSP workflows, bulk driver installation, reproducible deployments, restore point safety, driver database, technician tools, enterprise IT, system recovery, automation scripts, IT portfolio
