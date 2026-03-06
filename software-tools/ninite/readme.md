@@ -74,6 +74,18 @@ The Pro version extends functionality for IT teams:
 - Faster updates with caching.
 - Licensing designed for MSPs and enterprise environments.
 
+🛠️ **BONUS!** PowerShell Integration Guide
+If you’d like to go beyond the basics and automate Ninite’s usability with PowerShell, this repository includes a dedicated guide:
+
+![Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
+
+That section walks through how to:
+- Run Ninite silently via PowerShell scripts
+- Schedule updates or deployments
+- Integrate Ninite into larger automation workflows
+You’ll also find a ready‑to‑use script (ninite-install.ps1) in the same folder, which you can download and adapt for your environment.
+
+
 🎯 Summary
 Ninite is a time‑saving automation tool for Windows software deployment.
 It shines in environments where speed, consistency, and simplicity matter more than customization.
