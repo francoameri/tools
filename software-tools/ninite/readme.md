@@ -1,4 +1,4 @@
-📌 Purpose
+## 📌 Purpose
 Ninite is a bulk software installer and updater designed to automate the deployment of common applications on Windows systems.
 It eliminates repetitive manual installation steps by silently installing selected programs with default settings.
 
@@ -74,7 +74,7 @@ The Pro version extends functionality for IT teams:
 - Faster updates with caching.
 - Licensing designed for MSPs and enterprise environments.
 
-🛠️ **BONUS!** PowerShell Integration Guide
+## 🛠️ **BONUS!** PowerShell Integration Guide
 If you’d like to go beyond the basics and automate Ninite’s usability with PowerShell, this repository includes a dedicated guide:
 
 ![Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
