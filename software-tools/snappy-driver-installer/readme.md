@@ -7,7 +7,7 @@ Quick links to detailed guides on how to use this tool:
 - [How to use guide](./docs/how-to-sdi.md)
 - [Online vs Offline guide](./docs/online-vs-offline.md)
 
-🏷️ These guides provide step‑by‑step instructions and reproducible workflows, helping technicians and IT teams integrate SDI tools into automation routines, scheduled updates, and network‑wide deployments.
+🏷️ These guides provide step‑by‑step instructions and reproducible workflows, helping technicians and IT teams integrate SDI tools into automation routines, deployments and troubleshooting.
 
 ---
 
