@@ -67,3 +67,12 @@ powershell.exe
 - Keeps apps updated without manual intervention.
 - Ensures consistency across systems.
 - Works seamlessly with the reusable Ninite installer.
+
+
+---
+
+## 🌐 Network Deployment with Ninite
+
+- Want to do this in a bigger scale? Check this other document:
+
+![Network-Deployment](./network-deployment/readme.md)
