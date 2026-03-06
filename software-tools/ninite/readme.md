@@ -1,3 +1,7 @@
+# Ninite
+
+![Ninite Logo](./images/Ninitelogo.png)
+
 ## 📚 Documentation Index
 Quick links to detailed guides for different deployment scenarios:
 - [Integration with PowerShell](./scripts/integration-with-powershell.md)
@@ -18,8 +22,6 @@ For MSPs and enterprise teams, Ninite supports reproducible update workflows acr
 ## 📌 Purpose
 Ninite is a bulk software installer and updater designed to automate the deployment of common applications on Windows systems.
 It eliminates repetitive manual installation steps by silently installing selected programs with default settings.
-
-![Ninite Logo](./images/Ninitelogo.png)
 
 ⚙️ How It Works
 - Visit ***www.ninite.com*** and select the applications you want.
