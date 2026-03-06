@@ -1,3 +1,17 @@
+## 📚 Documentation Index
+- [Integration with PowerShell](./scripts/integration-with-powershell.md)
+- [Automation with Task Scheduler](./scripts/automation-with-task-scheduler.md)
+- [Network Deployment Scenarios](./deployment-scenarios/network-deployment.md)
+
+## 🖥️ Bulk Software Deployment
+Ninite simplifies bulk software deployment by packaging multiple applications into a single installer, reducing repetitive manual steps during OS rollouts.
+
+## ⚙️ Windows Automation Scripts
+With PowerShell integration, Ninite can be executed as part of Windows automation scripts, ensuring updates and installs run silently and consistently.
+
+## 🏢 MSP Software Update Workflows
+For MSPs and enterprise teams, Ninite supports reproducible update workflows across multiple endpoints, especially when combined with Task Scheduler or Intune.
+
 ## 📌 Purpose
 Ninite is a bulk software installer and updater designed to automate the deployment of common applications on Windows systems.
 It eliminates repetitive manual installation steps by silently installing selected programs with default settings.
@@ -77,7 +91,7 @@ The Pro version extends functionality for IT teams:
 ## 🛠️ **BONUS!** PowerShell Integration Guide
 If you’d like to go beyond the basics and automate Ninite’s usability with PowerShell, this repository includes a dedicated guide:
 
-![Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
+[Ninite-Powershell-Integration-Guide](./scripts/integration-with-powershell.md)
 
 That section walks through how to:
 - Run Ninite silently via PowerShell scripts
@@ -90,3 +104,8 @@ You’ll also find a ready‑to‑use script (ninite-install.ps1) in the same fo
 Ninite is a time‑saving automation tool for Windows software deployment.
 It shines in environments where speed, consistency, and simplicity matter more than customization.
 For enterprise use, Ninite Pro adds remote management and integration capabilities, making it a strong fit for MSPs and IT departments
+This makes Ninite a practical choice for bulk software deployment, Windows automation scripts, and MSP software update workflows.
+
+---
+
+Keywords: Ninite automation with PowerShell, Windows Task Scheduler, Network deployment scripts.
