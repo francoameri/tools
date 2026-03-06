@@ -13,7 +13,7 @@ Quick links to detailed guides for different deployment scenarios:
 ---
 
 ## 📌 Purpose
-Ninite is a bulk software installer and updater designed to automate the deployment of common applications on Windows systems.
+[Ninite](www.ninite.comn) is a bulk software installer and updater designed to automate the deployment of common applications on Windows systems.
 It eliminates repetitive manual installation steps by silently installing selected programs with default settings.
 
 ---
