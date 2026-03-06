@@ -21,6 +21,8 @@ The beauty of Ninite is that the same installer can be reused:
 - Run it again later → it **updates all chosen apps to their latest versions.**
 - No need to re‑download unless you want to change the app list.
 
+---
+
 ## 📥 Downloadable Script
 For practical integration, a ready‑to‑use PowerShell script is included in this repository.  
 You can download it here:  
@@ -32,6 +34,7 @@ This script demonstrates how to run the Ninite installer silently with PowerShel
 
 > ⚠️ **Note:** Place your downloaded `Ninite.exe` in the correct path referenced in the script before execution or edit it's path with notepad or any text-processing software.
 
+---
 
 ## ⏰ Automating with Task Scheduler from Windows
 You can **configure Windows Task Scheduler to run the ninite-install.ps1 script on a regular basis**, ensuring your selected applications stay updated automatically.
