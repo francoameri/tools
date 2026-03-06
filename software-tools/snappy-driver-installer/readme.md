@@ -3,7 +3,7 @@
 ![SDI](./images/SDI.PNG)
 
 ## 📚 Documentation Index
-Quick links to detailed guides for different deployment scenarios:
+Quick links to detailed guides on how to use this tool:
 - [How to use guide](./docs/how-to-sdi.md)
 - [Online vs Offline guide](./docs/online-vs-offline.md)
 
