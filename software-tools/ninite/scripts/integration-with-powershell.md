@@ -1,4 +1,4 @@
-🔧 Integration with PowerShell
+## 🔧 Integration with PowerShell
 Ninite installers are **single executables** that already contain the list of apps you selected on the website. PowerShell doesn’t let you “choose apps on the fly” — you must **pre‑select the apps on ninite.com**, download the custom installer, and then call it from PowerShell.
 
 ```plaintext
@@ -33,7 +33,7 @@ This script demonstrates how to run the Ninite installer silently with PowerShel
 > ⚠️ **Note:** Place your downloaded `Ninite.exe` in the correct path referenced in the script before execution or edit it's path with notepad or any text-processing software.
 
 
-⏰ Automating with Task Scheduler from Windows
+## ⏰ Automating with Task Scheduler from Windows
 You can **configure Windows Task Scheduler to run the ninite-install.ps1 script on a regular basis**, ensuring your selected applications stay updated automatically.
 Steps:
 - Open Task Scheduler (taskschd.msc from Run - Start+R - or Start Menu).
