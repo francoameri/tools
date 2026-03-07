@@ -173,4 +173,4 @@ This README is not just documentation — it’s a **case study** in how I appro
 
 ## 🗝️ Keywords:
 
-driver installer, Snappy Driver Installer, SDI, free driver tool, open source driver updater, Windows drivers, Windows Server drivers, offline driver pack, portable driver installer, IT toolkit, infrastructure automation, endpoint deployment, MSP workflows, bulk driver installation, reproducible deployments, restore point safety, driver database, technician tools, enterprise IT, system recovery, automation scripts, IT portfolio
+> driver installer, Snappy Driver Installer, SDI, free driver tool, open source driver updater, Windows drivers, Windows Server drivers, offline driver pack, portable driver installer, IT toolkit, infrastructure automation, endpoint deployment, MSP workflows, bulk driver installation, reproducible deployments, restore point safety, driver database, technician tools, enterprise IT, system recovery, automation scripts, IT portfolio
