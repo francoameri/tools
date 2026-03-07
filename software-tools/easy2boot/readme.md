@@ -179,4 +179,4 @@ Examples of what you can include:
 
 ## 🗝️ Keywords
 
-Easy2Boot, multiboot USB, boot multiple ISOs, Windows installer USB, Linux live USB, Hiren’s BootCD, MemTest86, Clonezilla, GParted, portable SSD boot, BIOS boot, UEFI boot, disable secure boot, IT toolkit, system recovery, OS deployment
+> Easy2Boot, multiboot USB, boot multiple ISOs, Windows installer USB, Linux live USB, Hiren’s BootCD, MemTest86, Clonezilla, GParted, portable SSD boot, BIOS boot, UEFI boot, disable secure boot, IT toolkit, system recovery, OS deployment
