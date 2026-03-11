@@ -34,6 +34,21 @@ This is a **temporary fix** — suitable for labs, troubleshooting, or field rep
 ### 🚚 Field Repairs
 Technicians rely on UY2 connectors for fast splicing in outdoor or damp environments thanks to their gel‑filled moisture protection.
 
+---
+
+## 🧩 Structure of the UY2 Connector
+The UY2 connector is a compact, gel‑filled butt splice designed for quick copper wire joints. Its structure is simple but engineered for reliability:
+- Outer Shell (Cap & Body)
+Made of durable plastic, the shell consists of a translucent body and a colored cap (usually red or orange). The cap is pressed down with a crimp tool to complete the splice.
+- Metal Contact Blades
+Inside the connector are sharp metal blades that pierce the insulation of the inserted wires. These blades cut through the plastic coating and establish direct electrical contact with the copper conductors.
+- Gel Filling
+The interior is filled with a moisture‑resistant gel. This protects the splice from water ingress, oxidation, and corrosion, making it suitable for outdoor or damp environments.
+- Wire Entry Ports
+Two small openings allow insertion of copper wires (26–19 AWG). The design ensures proper alignment so the blades pierce correctly during crimping.
+- Locking Mechanism
+Once the cap is pressed down, it locks into place, securing the wires and maintaining consistent pressure on the contact blades.
+
 ![UY2 Connector Diagram](./images/UY2_structure.jpg)
 
 ---
@@ -63,9 +78,9 @@ Technicians rely on UY2 connectors for fast splicing in outdoor or damp environm
 
 ![UY Finished](./images/UY2_Example.jpg)
 
-> **You got to make sure that the cables are deep enough to reach the copper part for it to have contact when you press it with the clamp!**
+> **You got to make sure that the cables are deep enough through the wire entry ports to reach the metal contact blades for it to have contact when you press the locking mechanism with the clamp!**
 
-After this, it is recommended that you tape the cable to isolate and protect it.
+After this, it is recommended that you tape the cable ***to isolate and protect it.***
 
 ---
 
