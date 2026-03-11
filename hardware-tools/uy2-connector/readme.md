@@ -1,6 +1,6 @@
 # UY2 Connector
 
-![UY2 Connector](./images/UY2.png)
+![UY2 Connector](./images/UY2.jpg)
 
 ## 📚 Documentation Index
 Quick links to detailed guides for different deployment scenarios:
