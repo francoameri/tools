@@ -34,6 +34,8 @@ This is a **temporary fix** — suitable for labs, troubleshooting, or field rep
 ### 🚚 Field Repairs
 Technicians rely on UY2 connectors for fast splicing in outdoor or damp environments thanks to their gel‑filled moisture protection.
 
+![UY2 Connector Diagram](./images/UY2_structure.jpg)
+
 ---
 
 ## ⚙️ Technical Specifications
@@ -52,8 +54,6 @@ Technicians rely on UY2 connectors for fast splicing in outdoor or damp environm
 - Use a proper crimp tool to press down the cap.  
 - The connector pierces insulation and makes contact.  
 - Gel filling protects the splice from moisture and corrosion.  
-
-![UY2 Connector Diagram](./images/UY2_structure.jpg)
 
 ![UY2 How to](./images/UY2_how_to.jpg)
 
