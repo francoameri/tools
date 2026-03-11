@@ -61,7 +61,7 @@ Technicians rely on UY2 connectors for fast splicing in outdoor or damp environm
 
 > This second example shows how it should look after all the joints have been secured with the clamp and the silicone.
 
-![UY Finished](./images/UY_Example.jpg)
+![UY Finished](./images/UY2_Example.jpg)
 
 > **You got to make sure that the cables are deep enough to reach the copper part for it to have contact when you press it with the clamp!**
 
