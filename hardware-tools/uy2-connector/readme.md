@@ -65,6 +65,8 @@ Technicians rely on UY2 connectors for fast splicing in outdoor or damp environm
 
 > **You got to make sure that the cables are deep enough to reach the copper part for it to have contact when you press it with the clamp!**
 
+After this, it is recommended that you tape the cable to isolate and protect it.
+
 ---
 
 ## ✅ Key Features
