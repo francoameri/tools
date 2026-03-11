@@ -149,6 +149,7 @@ When applying UY2 connectors, follow these guidelines to ensure a reliable splic
 - ✅ Check for secure locking — the cap should sit flush with the body.
 - ✅ Tape or heat‑shrink after crimping to isolate and protect the joint.
 - ✅ Avoid excessive bending of the spliced section to maintain contact integrity.
+> ***Always remember to test the cable after completing the joint process!***
 
 ---
 
