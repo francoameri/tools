@@ -2,7 +2,7 @@
 
 ![UY2 Connector](./images/UY2.jpg)
 
-🏷️ These guide provides step‑by‑step instructions and reproducible workflows, helping technicians and IT teams apply UY2 connectors in telecom, networking, and emergency repair scenarios.
+🏷️ This guide provides step‑by‑step instructions and reproducible workflows, helping technicians and IT teams apply UY2 connectors in telecom, networking, and emergency repair scenarios.
 
 ---
 
