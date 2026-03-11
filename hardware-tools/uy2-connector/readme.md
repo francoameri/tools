@@ -2,13 +2,7 @@
 
 ![UY2 Connector](./images/UY2.jpg)
 
-## 📚 Documentation Index
-Quick links to detailed guides for different deployment scenarios:
-- [Ethernet Temporary Joint Guide](./guides/ethernet-temporary-joint.md)
-- [Telecom Splicing Scenarios](./guides/telecom-splicing.md)
-- [Field Repair Workflows](./guides/field-repair.md)
-
-🏷️ These guides provide step‑by‑step instructions and reproducible workflows, helping technicians and IT teams apply UY2 connectors in telecom, networking, and emergency repair scenarios.
+🏷️ These guide provides step‑by‑step instructions and reproducible workflows, helping technicians and IT teams apply UY2 connectors in telecom, networking, and emergency repair scenarios.
 
 ---
 
@@ -64,6 +58,17 @@ Once the cap is pressed down, it locks into place, securing the wires and mainta
 
 ---
 
+## 🔗 Related Connectors
+The UY2 is part of a broader family of gel‑filled splice connectors, each designed for slightly different scenarios:
+- UY2 (2‑wire splice)
+Joins two copper conductors (26–19 AWG). Best for straight splicing.
+- UR2 (3‑wire splice)
+Allows branching connections by joining three conductors. Useful when extending or splitting a line.
+- UB2A (tap splice)
+Designed for tapping into an existing line without cutting it. Ideal for adding a branch connection while keeping the main run intact.
+
+---
+
 ## 🖥️ How It Works
 - Insert two copper wires into the connector.  
 - Use a proper crimp tool to press down the cap.  
@@ -94,10 +99,12 @@ After this, it is recommended that you tape the cable ***to isolate and protect 
 ---
 
 ## ⚠️ Limitations
-- **Temporary Ethernet Fix Only:** Not suitable for permanent Ethernet cabling.  
-- **Low‑Voltage Use:** Not designed for high‑voltage or high‑current applications.  
-- **Tool Requirement:** Needs a proper crimp tool for reliable installation.  
-- **Wire Gauge Limits:** Only supports 26–19 AWG copper conductors.  
+While UY2 connectors are reliable for quick copper joints, they introduce signal integrity loss when used with Ethernet cables:
+- Twist Disruption: Ethernet relies on precise twist ratios in each pair to minimize crosstalk. A splice interrupts this geometry.
+- Impedance Mismatch: Certified Ethernet cabling is manufactured to strict impedance standards (100 Ω). A splice alters this balance, leading to reflections and degraded performance.
+- Shielding Loss: Splicing breaks the continuity of shielding or jacket integrity, exposing the cable to external interference.
+- Performance Impact: Even if connectivity is restored, throughput and stability may suffer — especially at higher speeds (Gigabit and above).
+👉 This is why UY2 connectors should only be used as a temporary workaround for Ethernet. For permanent installations, always replace the spliced section with certified cabling to ensure compliance and long‑term reliability.
 
 ---
 
