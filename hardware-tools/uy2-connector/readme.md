@@ -55,7 +55,15 @@ Technicians rely on UY2 connectors for fast splicing in outdoor or damp environm
 - The connector pierces insulation and makes contact.  
 - Gel filling protects the splice from moisture and corrosion.  
 
+> This first example shows how you should use the UY2 Connector.
+
 ![UY2 How to](./images/UY2_how_to.jpg)
+
+> This second example shows how it should look after all the joints have been secured with the clamp and the silicone.
+
+![UY Finished](./images/UY_Example.jpg)
+
+> **You got to make sure that the cables are deep enough to reach the copper part for it to have contact when you press it with the clamp!**
 
 ---
 
